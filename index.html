@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="photos/transparent_cup.jpg" />
+    <title> Boys in the Hood Madlibs</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nanum+Brush+Script&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1> Boys in the Hood Madlibs </h1>
+        <h2>Instructions: add the word type to each box. <br> Ayo be creative with your answers!</h2>
+    </header>
+
+
+
+    <div class="form-container">
+        <form id="myForm">
+            <ol class="form-columns">
+        
+                <li><input type="text" class="madlibs" placeholder="verb" id="verb" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of feeling" id="feeling" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj1" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj2" required></li>
+                <li><input type="text" class="madlibs" placeholder="noun" id="noun" required></li>
+                <li><input type="text" class="madlibs" placeholder="flavor" id="flavor" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of food" id="food" required></li>
+                <li><input type="text" class="madlibs" placeholder="something you read" id="read" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj3" required></li>
+                <li><input type="text" class="madlibs" placeholder="adjective" id="adj4" required></li>
+                <li><input type="text" class="madlibs" placeholder="type of monster" id="monster" required></li>
+                <button type="button" id="button" value="submit" onclick="createParagraph()">Let the Hood prevail!</button>
+            </ol>
+        </form>
+    </div>
+
+
+
+    <!-- font test. css h6 properties for experimenting -->
+
+    <!-- <h6> This is a font test. I love coffee. Dogs like to sun bath. </h6> -->
+
+
+
+    <div id="answer">
+
+        <!--    STORY WILL POP UP ATER THE FORM DIELD IS FILLED OUT AND SUBMIT BUTTON CLICKED   -->
+        <!--    STORY IS PRODUCED FROM APP.JS -> VAR PARAGRAPH   -->
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
+
+<!--   input values
+    _1_verb_
+    _2_type_of_feeling__
+    _3_adjective__
+    _4_adjective__
+    _5_noun__
+    _6_flavor__
+    _7_type_of_food_
+    _8_something_you_read__
+    _9_adjective__
+    _10_adjective__
+    _11_type_of_monster__
+-->
+
+<!--    <p id='story'><br>
+                Do not _____ to me before I have had my coffee!<br>
+                Before I get my first sip, I am ______.<br>
+                If I do not get to practice my morning routine, then the day is sure to be ______. <br>
+                First, I get my ______ ______ mug. <br>
+                Then, I brew some ______ coffee. <br>
+                Next, I mix in _____. <br>
+                I enjoy drinking this coffee while reading ______. <br>
+                Once the ritual is complete, I feel ______. <br>
+                When I miss my java break, I turn into a ___1___ ______. <br>
+                <br>
+            </p>
+-->
+
+
+
+<!--    ***     PROJECT INFO       ***
+ in a few weeks we are going to use JavaScript to make a mad libs project. Today we are going to start on the static elements of our mad Libs project using HTML and CSS. Please take the following steps.
+
+* 1. Google a mad libs story you would like to use.
+* 2. Create a new project folder and place an index.html and style.css file in it.
+* 3. Give your index.html an h1 heading with the title of your page or story.
+4. Below your h1 heading add text inputs for each fill-in-the-blank portion of your mad libs. Please use placeholders and labels to inform the user what kind of word they should use.
+5. Below your text inputs, add a paragraph with the mad libs story you plan to use (we will update this when we work on this project a few weeks from now)
+6. Use your style.css file to make the project as professional in appearance as possible.
+7.Please turn in a github link to your repository
+
+-->
